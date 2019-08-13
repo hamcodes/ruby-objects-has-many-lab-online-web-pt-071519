@@ -1,3 +1,4 @@
 class Post
-  @@all = 
+  @@all = []
+  def initialize
 end
