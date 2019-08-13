@@ -1,8 +1,8 @@
 class Song
 
-   @@all = []
+   attr_accessor :artist, :name
 
-   attr_accessor :name, :artist
+     @@all = []
 
    def initialize(name)
     @name = name
@@ -14,19 +14,10 @@ class Song
   end
 
    def artist_name
-  if @artist
-    self.artist.name
-  else
-    @artist
+    artist.name if artist 
   end
-end
-
- def self.song_count
-@@all.uniq.length
-end
 
  end
-
 
 
 
