@@ -22,7 +22,7 @@ class Song
 end
 
  def self.song_count
-@@all.uniq.lenght
+@@all.uniq.length
 end
 
  end
