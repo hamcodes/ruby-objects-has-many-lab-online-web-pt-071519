@@ -18,6 +18,6 @@ class Post
     @@all 
   end 
   
-  def post_count
+
     
 end 
