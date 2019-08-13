@@ -8,3 +8,4 @@ class Song
     @genre = genre
     save
   end
+end
