@@ -6,6 +6,8 @@ class Artist
     @songs = []
   end
  
+  def songs
+    song.new = []
 end
   
   
