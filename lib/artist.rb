@@ -9,6 +9,7 @@ class Artist
   def songs
     song.new = []
 end
+end
   
   
   
