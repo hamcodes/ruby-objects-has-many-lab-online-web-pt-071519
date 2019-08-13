@@ -18,6 +18,8 @@ class Author
     @@all << post 
     post.author = self 
   end 
+  
+  def post
 
   def self.post_count
     Post.all.count 
