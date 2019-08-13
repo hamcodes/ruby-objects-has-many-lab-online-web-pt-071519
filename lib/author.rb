@@ -23,3 +23,4 @@ class Author
     post.all.count 
   end 
 end
+end
