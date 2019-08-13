@@ -6,8 +6,8 @@ class Artist
     @songs = []
   end
 
-  def songs 
-    @songs << song.new 
+  def song
+    @songs
   end
   
   
